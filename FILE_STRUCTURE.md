@@ -1,19 +1,24 @@
 ```text
 project-root/
-├── .github/
-│   └── workflows/
-├── config/
-├── docs/
-├── scripts/
-├── src/
-│   ├── modules/
-│   ├── shared/
-│   ├── services/
-│   ├── types/
-│   └── utils/
-├── tests/
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
 ├── .env.example
-├── .gitignore
-├── README.md
-└── [project manifest]
+└── src/
+    ├── App.jsx
+    ├── App.css
+    ├── index.css
+    ├── main.jsx
+    ├── route.js
+    ├── ThemeProvider.jsx
+    ├── components/
+    │   ├── common/
+    │   └── features/
+    ├── hooks/
+    ├── layouts/
+    ├── pages/
+    ├── services/
+    ├── test/
+    └── utils/
 ```
